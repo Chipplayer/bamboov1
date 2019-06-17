@@ -1,0 +1,34 @@
+/* Importing from CDN's */
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
+
+
+
+
+/* Navbar */
+
+nav.navbar{
+    margin-top:20px;
+}
+
+/* Div container */
+
+div.container{
+
+    text-align: center;
+    padding-top:70px;
+}
+
+
+/* background and colors */
+
+html{
+
+    background-color:#4527A0;
+
+}
+
+div.container{
+
+    background-color:#4527A0;
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bamboo - Chat with Random People</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+ <div class="container">
+
+<h2 style="font-family:'Quicksand', sans-serif;font-size: 70px;color:#ffffff;">Bamboo</h2>    
+    
+
+    <!--Input and buttons-->
+<div class="columns">
+  <div class="column"></div>
+  <div class="column">    
+    <div class="field" style="margin-top:60px;text-align: center;">
+      <div class="control">
+        <a href="chat-example-master/index.html"><button class="button is-warning" style="font-family: sans-serif;font-weight: bold;margin-top:10px;width:100%;max-width:500px;height: 60px;font-size: 20px;" >Start Chatting</button></a>
+      </div>
+    </div>
+  </div>
+    <div class="column"></div>
+</div>
+
+ </div>
+
+
+
+
+ 
+
+  <script>
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#'+burger.dataset.target);
+     
+      burger.addEventListener('click', function(){
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+    </script>
+
+  </body>
+</html>
